@@ -1,0 +1,8 @@
+let Num1 = 20
+if Num1 % 4 == 0 {
+    print("\(Num1) is completely divisible by 4")
+}
+else
+{
+    print("\(Num1) is not divisible by 4")
+}

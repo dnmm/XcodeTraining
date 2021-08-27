@@ -1,0 +1,20 @@
+func bubbleSort (arr: [Int])-> [Int]
+{
+var array = arr
+for _ in 0..<array.count-1
+{
+    for j in 0..<array.count-1
+    {
+        if(array[j] > array[j+1])
+        {
+            let temp = array[j]
+            array[j] = array[j+1]
+            array[j+1] = temp
+            
+        }
+    }
+}
+return array
+}
+let unsortedArray = [4,3,8,1,7,0]
+print(bubbleSort(arr: unsortedArray))
